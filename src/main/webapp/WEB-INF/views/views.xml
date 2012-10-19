@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE tiles-definitions PUBLIC "-//Apache Software Foundation//DTD Tiles Configuration 2.0//EN" "http://tiles.apache.org/dtds/tiles-config_2_0.dtd">
+<tiles-definitions>
+	
+	<definition extends="main" name="homepage">
+	</definition>
+	
+	<definition name="resourceNotFound" template="/WEB-INF/views/errors/404Error.jsp">
+	</definition>
+
+	
+	
+	
+	<!-- Error pages 
+	<definition extends="holdingPage" name="error">
+		<put-attribute name="mainContentHero" value="/WEB-INF/views/userMainCol.jsp"/>
+		<put-attribute name="mainColBlurb" value="/WEB-INF/views/errors/404Error.jsp"/>
+	</definition>
+	
+	<definition extends="holdingPage" name="dataAccessFailure">
+		<put-attribute name="mainContentHero" value="/WEB-INF/views/userMainCol.jsp"/>
+		<put-attribute name="mainColBlurb" value="/WEB-INF/views/errors/dataAccessFailure.jsp"/>
+	</definition>
+	<definition extends="holdingPage" name="resourceNotFound">
+		<put-attribute name="mainContentHero" value="/WEB-INF/views/userMainCol.jsp"/>
+		<put-attribute name="mainColBlurb" value="/WEB-INF/views/errors/resourceNotFound.jsp"/>
+	</definition>
+	<definition extends="holdingPage" name="uncaughtException">
+		<put-attribute name="mainContentHero" value="/WEB-INF/views/userMainCol.jsp"/>
+		<put-attribute name="mainColBlurb" value="/WEB-INF/views/errors/uncaughtException.jsp"/>
+	</definition>
+	<definition extends="holdingPage" name="login">
+		<put-attribute name="mainContentHero" value="/WEB-INF/views/userMainCol.jsp"/>
+		<put-attribute name="mainColBlurb" value="/WEB-INF/views/errors/loginFailure.jsp"/>
+    </definition>
+    <definition extends="holdingPage" name="genericError">
+		<put-attribute name="mainContentHero" value="/WEB-INF/views/userMainCol.jsp"/>
+		<put-attribute name="mainColBlurb" value="/WEB-INF/views/errors/errorBody.jsp"/>
+    </definition>-->
+</tiles-definitions>

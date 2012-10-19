@@ -1,0 +1,11 @@
+This is a basic web application that I have created as a template using Spring 3.1 and moving over to a pure java @Configuration approach. The only remaining XML files are security.xml (Spring doesn't yet support pure java configuration for this stuff) and web.xml.
+
+The web side of the application is based on the bootstrap flavoured download from: http://www.initializr.com/ 
+
+It also includes:
+- Basic root persistable object that can be used for common usage across hiberate domain objects that includes created/modified timestamp/user as well as pre-persist hooks to inject this info
+- Account/Security hibernate objects to persist users
+- Custom security implementation to use custom account object for authentication
+- Simple single controller example
+
+Will prob use this app as the starting point for future apps, because, well, i'm lazy.

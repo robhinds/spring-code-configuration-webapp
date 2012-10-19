@@ -1,0 +1,31 @@
+/* @license
+ * MyFonts Webfont Build ID 2302260, 2012-06-02T16:40:49-0400
+ * 
+ * The fonts listed in this notice are subject to the End User License
+ * Agreement(s) entered into by the website owner. All other parties are 
+ * explicitly restricted from using the Licensed Webfonts(s).
+ * 
+ * You may obtain a valid license at the URLs below.
+ * 
+ * Webfont: Sketchetik Light by Hiekka Graphics
+ * URL: http://www.myfonts.com/fonts/hiekkagraphics/sketchetik/light/
+ * Copyright: Hiekka Graphics
+ * Licensed pageviews: unlimited
+ * 
+ * 
+ * License: http://www.myfonts.com/viewlicense?type=web&buildid=2302260
+ * 
+ * © 2012 Bitstream Inc
+*/
+
+
+
+  
+ @font-face {
+ 	font-family: 'Sketchetik-Light';
+ 	src: url('webfonts/232134_0_0.eot');
+ 	src: url('webfonts/232134_0_0.eot?#iefix') format('embedded-opentype'),
+ 		 url('webfonts/232134_0_0.woff') format('woff'),
+ 		 url('webfonts/232134_0_0.ttf') format('truetype');
+ }
+ 
